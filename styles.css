@@ -1,0 +1,110 @@
+/* BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.4;
+}
+
+/* BUTTONS */
+.btn {
+    background: #0d47a1;
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn-small {
+    background: #1565c0;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 0.3rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/164879/pexels-photo-164879.jpeg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    letter-spacing: 5px;
+    color: #0d47a1;
+}
+
+.hero-content p {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+/* BEATS SECTION */
+.section-black {
+    padding: 4rem 2rem;
+    background: #000;
+    text-align: center;
+}
+
+.beat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.beat-card {
+    background: #111;
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.beat-card .cover {
+    width: 100%;
+    height: 140px;
+    background: #222;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+/* BLUE SECTION */
+.section-blue {
+    background: #0d47a1;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.section-blue h2 {
+    color: #fff;
+}
+
+/* FOOTER */
+.footer-black {
+    background: #000;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-black .socials a {
+    color: #1565c0;
+    margin: 0 0.8rem;
+    text-decoration: none;
+    font-weight: 500;
+}
